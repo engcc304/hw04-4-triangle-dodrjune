@@ -13,3 +13,19 @@
     Output:
         Triagle Area : 7.5
 */
+#include <stdio.h>
+
+int main () {
+   
+    float H, W ;
+
+    printf( "Enter H & W : " ) ;
+    
+    scanf ( "%f %f",&H ,&W ) ;
+    
+    float TriagleArea = (H*W)/2 ;
+    
+    printf ("Triagle Area : %.1f\n", TriagleArea ) ;
+
+    return 0 ;
+}//emd function
